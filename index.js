@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 8080;
+const PORT = 8000;
 
 app.use(express.json());
 
@@ -64,6 +64,6 @@ app.delete("/deleteAll", (req, res) => {
 });
 
 // Start the server
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
