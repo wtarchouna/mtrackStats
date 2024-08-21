@@ -4,7 +4,6 @@ const PORT = 8000;
 
 app.use(express.json());
 
-// In-memory store for stats by requester ID
 const statsByRequester = {};
 
 // Route to handle POST requests to /synchronizeAction
