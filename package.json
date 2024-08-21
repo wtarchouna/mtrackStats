@@ -4,7 +4,7 @@
   "description": "A simple Node.js project",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "author": "Your Name",
   "license": "ISC",
