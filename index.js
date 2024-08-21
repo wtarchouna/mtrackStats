@@ -63,6 +63,6 @@ app.delete("/deleteAll", (req, res) => {
 });
 
 // Start the server
-app.listen(, () => {
+app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
